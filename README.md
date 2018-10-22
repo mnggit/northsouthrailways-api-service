@@ -8,7 +8,7 @@ This application provides the REST API for feteching routes:
 
 GET /travelPaths?cityStart=${cityStart}&cityEnd=${cityEnd}
 
-northsouthrailways-api-service is built in Spring Boot, the source code for this project can be cloned from this git repository. 
+northsouthrailways-api-service has been developed using the Spring Boot framework and build with Maven. Download the source code for the project from this git repository. 
 
 The application can be run from the IDE (e.g. Eclipse) as a Java application.
 
