@@ -13,7 +13,7 @@ import com.railways.demo.TravelPath;
 
 public class Algorithm {
 
-    //private final List<Vertex> nodes;
+    private final List<Vertex> nodes;
     private final List<Edge> edges;
     private Set<Vertex> settledNodes;
     private Set<Vertex> unSettledNodes;
@@ -22,7 +22,7 @@ public class Algorithm {
 
     public Algorithm(Graph graph) {
         // create a copy of the array so that we can operate on this array
-        //this.nodes = new ArrayList<Vertex>(graph.getVertexes());
+        this.nodes = new ArrayList<Vertex>(graph.getVertexes());
         this.edges = new ArrayList<Edge>(graph.getEdges());
     }
 
